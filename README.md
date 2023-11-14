@@ -9,6 +9,7 @@ Jameshon1211/Jameshon1211 is a ✨ special ✨ repository because its `README.md
 You can click the Preview link to take a look at your changes.
 --->
 - The pre-trained model
+
 !pip install transformers
 !conda install -c huggingface transformers
 !pip install torch 
