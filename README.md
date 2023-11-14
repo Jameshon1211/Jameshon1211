@@ -183,3 +183,17 @@ examples = [
 ]
 
 export_model.predict(examples)
+
+
+<!---
+Second code
+!pip install transformers
+!conda install -c huggingface transformers
+!pip install torch 
+!pip install chardet
+
+from transformers import pipeline
+
+classifier = pipeline("sentiment-analysis")
+classifier("I am impressed how long this ink last and how fast the seller sent it to me. Not a hitch at all, fantastic.")
+--->
